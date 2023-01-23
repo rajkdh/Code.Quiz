@@ -4,7 +4,8 @@
 // game ends when the timer runs out or all questions are answered.
 //save initial and score and display on score board.
 //button to restart game.
-//keep score displayed. 
+//store score in local storage.
+//keep score displayed. document.write (initial and score)
 var listEl;
 var buttonEl;
 var timeStart = 75;
