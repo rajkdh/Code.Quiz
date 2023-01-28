@@ -1,0 +1,13 @@
+.header {
+    float: right;
+    padding: 10px;
+}
+.game-container{
+    background-color: blue;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
