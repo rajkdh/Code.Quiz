@@ -6,6 +6,7 @@
 //button to restart game.
 //store score in local storage.
 //keep score displayed. document.write (initial and score)
+
 var listEl;
 var buttonEl;
 var timeStart = 75;
@@ -21,3 +22,10 @@ var timer = document.querySelector("#timer");
 var quizHeader = document.querySelector("#quiz-header");
 var quizText = document.querySelector("#quiz-text");
 var highScore = document.querySelector("#high-score");
+
+// add event listener for start button to open game page
+quizButton.addEventListener("click", startGame)
+function startGame() {
+    window.location.href = "index.html";
+}
+
