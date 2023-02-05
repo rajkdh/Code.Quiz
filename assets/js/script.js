@@ -109,12 +109,21 @@ var questions = [
       answer: "All the above"
     }
   ];
-  
+
+// Quiz variable:
+var currentQuestionIndex = 0;
+var time = questions.length * 15;
+var timerId;
 
 // add event listener for start button to open game page
 quizButton.addEventListener("click", startGame)
+
 function startGame() {
     window.location.href = "index.html";
+    timerId = setInterval(clockTick, 1000);
+    timer.textContent = timer;
+    questions();
 }
+// start timer
 
 
