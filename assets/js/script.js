@@ -15,7 +15,13 @@ var questionsScore = 0;
 var leaderBoard = [];
 var x = 0;
 
-
+var startButtonEl = document.querySelector("#start-quiz");
+var gameContainerEl = document.querySelector(".game-container");
+var quizButtonEl = document.querySelector(".btn");
+var timerEl = document.querySelector("#timer");
+var questionsEl = document.querySelector("#question-title");
+var choicesEl = document.querySelector("#choices");
+var highScoreEl = document.querySelector("#high-score");
 
 // List of questions, choices, and answers
 var questions = [
