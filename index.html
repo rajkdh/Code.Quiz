@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css"/>
-   <title>Code Quiz</title>
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <div class="game-container"></div>
     <header class="header">
-       <div>Time Remaining:<span class="timer" id="timer">0</span></div> 
-    </header>
-    <div class="score-board">
-        Score Board
-        <ul 
-        class="high-score" id="high-score">
-
+        <ul>
+            <li>
+                Time: <span class="timer" id="timer">0</span>
+            </li>
         </ul>
+    </header> 
+    <div class="quiz-container">
+        <h1 class="quiz-title" id="quiz-header"> </h1>
     </div>
-  
-    <div class="game-container">
-        <div id="questions" class="hide">
-            <h2 id="question-title"></h2>
-            <div id="choices" class="choices"></div>
-          </div>
-        </div>
-    </div>
-<!-- consider adding a seperate HTML page for the high score initial page. -->
-    <script src="./assets/js/script.js"></script>   
 </body>
 </html>
